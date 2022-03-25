@@ -1,0 +1,9 @@
+.modal {
+    opacity: 0;
+    position: absolute;
+    right: 100px;
+    transition: .4s;
+    top: 60px;
+    visibility: hidden;
+}
+.modal-active { visibility: visible; opacity: 1; }
